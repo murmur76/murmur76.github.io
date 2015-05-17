@@ -1,0 +1,82 @@
+html, body {
+  margin: 0;
+  padding: 0;
+  font-family: "Source Code Pro";
+  font-weight: 200;
+  color: #FFDB97;
+  background: #364041;
+  line-height: 130%;
+  font-size: 17px;
+}
+
+ul li {
+  list-style-type: square;
+}
+
+h2 {
+  color: rgb(181, 181, 218);
+}
+
+a {
+  text-decoration: none;
+  color: rgb(252, 154, 154);
+}
+
+div.container {
+  box-sizine: border-box;
+  max-width: 500px;
+  margin: 50px auto;
+  margin-top: 0px;
+  padding: 0 10px;
+}
+
+div.profile {
+  display: inline-block;
+}
+
+div.profile img.me {
+  float: left;
+  width: 150px;
+  border-radius: 10px;
+}
+
+div.profile div.content {
+  float: right;
+  max-width: 350px;
+  margin-top: 25px;
+  margin-bottom: 25px;
+}
+
+div.name {
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  font-size: 25px;
+  font-weight: bold;
+  color: rgb(255, 168, 110);
+}
+
+div.biograpy {
+  margin: 10px;
+  margin-top: 15px;
+}
+
+div.list div.elem {
+  font-size: 15px;
+}
+
+div.page {
+  display: inline-block;
+}
+
+div.page-left {
+  margin-left: 50px;
+  padding: 50px;
+  float: left;
+}
+
+div.page-right {
+  margin-right: 50px;
+  padding: 50px;
+  float: right;
+}
